@@ -2,7 +2,27 @@ body{
     background-color: #1b1b1b;
     margin: auto;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     display: flex;
-    font-family: "TW Cen MT", sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.credentials{
+    position: absolute;
+    text-align: center;
+    opacity: 30%;
+    margin-top: 50px;
+    line-height: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(124, 124, 255)
 }
