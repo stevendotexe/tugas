@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+
+.hero {
+  background-color: rgb(27, 27, 27);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 95vh;
+  align-items: center;
+}
+.hero .description {
+  margin-top: 25px;
+  max-width: 1000px;
+}
+
+h1 + h2 {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
