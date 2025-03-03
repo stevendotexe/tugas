@@ -54,6 +54,9 @@ header.navbar {
     img {
         height: auto;
         border-radius: 10px;
+        width: 150px;
+        aspect-ratio: 1/2;
+        object-fit: cover;
     }
 }
 

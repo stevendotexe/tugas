@@ -50,6 +50,10 @@ header.navbar ul li a:hover {
 .images img {
   height: auto;
   border-radius: 10px;
+  width: 150px;
+  aspect-ratio: 1/2;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 footer {
