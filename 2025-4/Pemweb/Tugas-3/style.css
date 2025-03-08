@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Doto:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  display: flex;
+  background-color: #1b1b1b;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  display: flex;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+}
+
+fieldset {
+  border-radius: 20px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.main-container input, .main-container textarea {
+  background-color: #1b1b1b;
+  border: 1px solid rgb(67, 67, 67);
+  padding: 5px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+.main-container option {
+  background-color: #1b1b1b;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.main-container input[type=radio] {
+  accent-color: rgb(0, 0, 0);
+}
+.main-container select {
+  background-color: #1b1b1b;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 10px;
+}
+.main-container input#file-upload-button {
+  background-color: #1b1b1b;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.gender-radio {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.gender-radio input[for=men] {
+  margin: 0;
+}
+.gender-radio input[type=radio] {
+  width: 12px;
+  height: 10px;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

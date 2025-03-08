@@ -1,0 +1,88 @@
+$font-heading: "DM Serif Display", serif;
+$font-body: "Raleway", sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Doto:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    background-color: #1b1b1b;
+    font-family: $font-body; // sets the default font of body
+    color: white;
+    display: flex;
+    // align-items: center;
+}
+
+h1{
+    font-family: $font-heading;
+}
+
+fieldset{
+    border-radius: 20px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    input, textarea{
+        background-color: #1b1b1b;
+        border: 1px solid rgb(67, 67, 67);
+        padding: 5px;
+        color: white;
+        font-family: $font-body;
+        border-radius: 15px;
+        margin-top: 10px;
+        width: 100%;
+
+    }
+    option{
+        background-color: #1b1b1b;
+        color: white;
+        font-family: $font-body;
+    }
+    input[type="radio"] {
+        accent-color: rgb(0, 0, 0);
+    }
+    select {
+        background-color: #1b1b1b;
+        color: white;
+        font-family: $font-body;
+        border: 1px solid rgb(141, 141, 141);
+        border-radius: 10px;
+    }
+    input#file-upload-button {
+        background-color: #1b1b1b;
+        color: white;
+        font-family: $font-body;
+        border: 1px solid rgb(141, 141, 141);
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+
+.gender-radio{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    input[for="men"] {
+        margin: 0;
+    }
+    input[type="radio"] {
+        width: 12px;
+        height: 10px;
+    }
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
